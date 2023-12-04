@@ -1,0 +1,281 @@
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+.bodyw{
+   width:100%;
+   height: 1061px;
+   background: #151517;
+}
+.headerw{
+   width:100%;
+height: 70px;
+flex-shrink: 0;
+background: rgba(42, 44, 51, 0.55);
+box-shadow: 0px 10px 8px 0px rgba(0, 0, 0, 0.25);
+display: flex;
+align-items: center;
+gap: 15px;
+}
+.composetw{
+color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-left: 15px;
+text-transform: uppercase;
+}
+.menuw{
+   display: flex;
+   margin-left: auto;
+   gap: 55px;
+   /* border: 1px solid red; */
+   /* align-items: center; */
+   margin-top: 15px;
+
+}
+.homew{
+   color: #FFF;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-transform: capitalize;
+   height: 55px;
+}
+.wishlistw{
+ 
+   color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+flex-direction: row-reverse;
+
+gap: 15px;  
+height: 50px;
+/* position: relative;
+top: 10px; */
+}
+.wishlistSvgw{
+   width: 24px;
+height: 20px;
+flex-shrink: 0;
+}
+.bagw{
+   color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+flex-direction: row-reverse;
+gap: 15px;
+height: 50px;
+}
+.bagSvgw{
+   width: 24px;
+height: 19px;
+flex-shrink: 0;
+opacity: 0.55;
+}
+.myAccauntw{
+   color: #FFF;
+   font-family: Montserrat;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   text-transform: uppercase;
+   height: 50px;
+
+}
+.btnColw{
+   background-color: #151517;
+   border: none;
+   
+}
+.collectionw{
+   width: 1266px;
+   height: 768px;
+   flex-shrink: 0;
+border-radius: 15px;
+background: #2F333A;
+margin: auto;
+margin-top: 60px;
+display: flex;
+flex-direction: column;
+/* border: 1px solid rgb(0, 251, 230); */
+/* gap: 5px; */
+}
+.textCollectionw{
+   color: #FFF;
+   margin-left: 95px;
+   margin-top: 15px;
+/* position: absolute; */
+top: 195px;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+/* border: 1px solid rgb(255, 11, 145); */
+}
+.textCharmsw{
+   color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+margin-left: 95px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+/* border: 1px solid red; */
+/* display: flex; */
+/* justify-content: center;
+align-items: center; */
+}
+.collectionDivsw{
+   /* border: 1px solid blue; */
+   width: 80%;
+   height: 25vh;
+   margin: auto;
+   display: flex;
+   gap: 15px;
+   flex-wrap: wrap;
+    position: absolute; 
+   top: 185px; 
+   left: 195px;
+   /* display: flex;
+   flex-direction: column;
+   gap: 50px; */
+} */
+.charmsDivsw{
+   /* border: 1px solid red; */
+   width: 70%;
+   height: 25vh;
+   margin: auto;
+   /* background-color: red; */
+}
+.collectionDivsImgw{
+   width: 180px;
+   height: 263px;
+   flex-shrink: 0;
+background:  #2F333A;
+/* position: absolute; */
+/* border: 1px solid rgb(3, 26, 17); */
+/* background: url(V.png), lightgray 50% / cover no-repeat; */
+}
+.imgLetw{
+   position: absolute;
+}
+.glavImgw{
+   width: 90%;
+height: 144px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+flex-direction: row;
+margin-left: 0px;
+/* margin-top: px; */
+/* border: 1px solid red; */
+/* margin-bottom: 25px; */
+position: relative;
+top: 9px;
+left: 9px;
+background: #3B4048;
+}
+.wishlistAddw{
+   width: 16px;
+/* height: 14px; */
+position: relative;
+top: -52px;
+left: 5px;
+/* bottom: -5px; */
+flex-shrink: 0;
+margin-bottom: 15px;
+margin-left: auto;
+margin-right: 10px;
+padding: 15px;
+/* margin-left: 25px; */
+/* border: 5px solid red; */
+}
+.svgImgw{
+   position: relative;
+   top: -10px;
+   left:47px;
+
+}
+.tvyalw{
+   color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: capitalize;
+display: flex;
+margin-left: 15px;
+margin-top: 30px;
+flex-direction: column;
+gap: 5px;
+position: relative;
+top:-35px;
+left: -35px;
+
+}
+.pricew{
+   color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+position: relative;
+left: 55px;
+top: -70px;
+margin-bottom: 95px;
+}
+.pagination{
+   position: relative;
+   top: -95px;
+   /* margin-left: auto; */
+   left: 955px;
+}
+.addBagLilke{
+   color: #3485FF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: capitalize;
+margin-left: 15px;
+position: absolute;
+top: 25px;
+left: 106px;
+}
+.collectionDivsw2{
+   position: absolute;
+   top: 490px;
+   left: 190px;
+   gap: 12px;
+   display: flex;
+}
+
+
